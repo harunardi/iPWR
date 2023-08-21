@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="mox1" temperature="900" volume="628146.2887">
+    <density units="g/cm3" value="10.57697684"/>
+    <nuclide ao="0.8" name="O16"/>
+    <nuclide ao="0.0012672" name="U235"/>
+    <nuclide ao="0.1747328" name="U238"/>
+    <nuclide ao="0.001104" name="Pu238"/>
+    <nuclide ao="0.01212" name="Pu239"/>
+    <nuclide ao="0.00576" name="Pu240"/>
+    <nuclide ao="0.003" name="Pu241"/>
+    <nuclide ao="0.002016" name="Pu242"/>
+  </material>
+  <material depletable="true" id="2" name="mox2" temperature="900" volume="382349.9149">
+    <density units="g/cm3" value="10.53645103"/>
+    <nuclide ao="0.933088587" name="O16"/>
+    <nuclide ao="2.09783e-06" name="Gd152"/>
+    <nuclide ao="2.28663e-05" name="Gd154"/>
+    <nuclide ao="0.000155239" name="Gd155"/>
+    <nuclide ao="0.000214713" name="Gd156"/>
+    <nuclide ao="0.000164155" name="Gd157"/>
+    <nuclide ao="0.00026055" name="Gd158"/>
+    <nuclide ao="0.000229293" name="Gd160"/>
+    <nuclide ao="0.000417305" name="U235"/>
+    <nuclide ao="0.057541695" name="U238"/>
+    <nuclide ao="0.000363561" name="Pu238"/>
+    <nuclide ao="0.003991267" name="Pu239"/>
+    <nuclide ao="0.00189684" name="Pu240"/>
+    <nuclide ao="0.000987937" name="Pu241"/>
+    <nuclide ao="0.000663894" name="Pu242"/>
+  </material>
+  <material id="3" name="gap" temperature="900">
+    <density units="g/cm3" value="0.0090274"/>
+    <nuclide ao="1" name="He4"/>
+  </material>
+  <material id="4" name="zirconium clad" temperature="600">
+    <density units="g/cm3" value="6.55089"/>
+    <nuclide name="Cr52" wo="0.001"/>
+    <nuclide name="Fe56" wo="0.002"/>
+    <nuclide name="Ni58" wo="7e-05"/>
+    <nuclide name="Zr90" wo="0.98193"/>
+    <nuclide name="Sn120" wo="0.015"/>
+  </material>
+  <material id="5" name="water" temperature="600">
+    <density units="g/cm3" value="0.753204"/>
+    <nuclide ao="0.666667" name="H1"/>
+    <nuclide ao="0.333333" name="O16"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="6" name="fa structure" temperature="900">
+    <density units="g/cm3" value="8"/>
+    <nuclide name="C12" wo="0.00014"/>
+    <nuclide name="Si28" wo="0.005"/>
+    <nuclide name="P31" wo="0.00023"/>
+    <nuclide name="S32" wo="0.00015"/>
+    <nuclide name="Cr52" wo="0.19"/>
+    <nuclide name="Mn55" wo="0.01"/>
+    <nuclide name="Fe56" wo="0.69448"/>
+    <nuclide name="Ni58" wo="0.1"/>
+  </material>
+</materials>
